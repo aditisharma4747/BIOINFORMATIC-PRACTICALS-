@@ -1,0 +1,19 @@
+library("seqinr")
+library(seqinr)
+
+r_from_h = function(f1,f2,df2){
+  
+return(sqrt(f/f+(df1/df2)))}
+r_from_h(4746.6,4,4)
+human =read.fasta(choose.files())
+head(human)
+humam_seq =human$`pdb|2XE0|D`
+head(human_seq)
+rabbit = read.fasta(choose.files())
+head(rabbit)
+rabbit_seq = rabbit$AH001228.2
+head(rabbit_seq)
+table(human_seq)
+table(rabbit_seq)
+var.test(table(humam_seq),table(rabbit_seq))
+var.test(table(rabbit_seq),table(human_seq))
